@@ -1,0 +1,55 @@
+.a{
+    color:beige;
+    background-color:black;
+}
+
+/*BOX MODEL : 5 rules/properties
+ 1)height
+ 2)width
+ 3)padding
+ 4)border
+ 5)margin */
+
+#box1{
+    height:100px;
+    width:100px;
+    background-color:red;
+    border:5px solid black;
+    padding:5px;
+    margin:5px;
+    border-radius:50%;
+    float:right;
+    position:fixed;
+
+    
+}
+#box2{
+    height:100px;
+    width:100px;
+    background-color:green;
+    border:5px solid black;             /*size ,style ,colour*/
+    padding:5px;
+    margin:5px;
+    border-radius: 50%;             /*floats the box*/
+    position:fixed;
+    
+}
+#box3{
+    height:100px;
+    width:100px;
+    background-color:yellow;
+    border:5px solid black;
+    padding:5px;
+    margin:5px;
+    border-radius:50%;
+    position:static;
+    
+}
+#box1:hover{
+    background-color: yellow;
+    border-radius: 20%;
+    border: none;
+    box-shadow: 10px 10px 10px red;
+}
+
+ 
